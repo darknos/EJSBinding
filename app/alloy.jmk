@@ -1,0 +1,6 @@
+task("pre:compile", function(event,logger) {
+});
+
+task("post:compile",function(event,logger){
+	logger.debug(JSON.stringify(event));
+});
